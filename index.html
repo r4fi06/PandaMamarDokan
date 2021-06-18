@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <title>Panda Commerce</title>
+</head>
+<body>
+    <!-- nav-bar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="panda">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#shoes">Shoes</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- carousel starts -->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide orange-bg" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                        <h1>Mega LED TV</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ratione quas, cumque perspiciatis fugiat saepe odit ipsam quis debitis fuga illum sed corrupti odio rerum sit totam accusamus ex! Repellendus?</p>
+                        <h1 class="price">$1,200</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                      </div>
+                  <div class="col-md-5">
+                    <img src="images/tv.png" class="d-block w-100" alt="...">
+                  </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                        <h1>Cool Dude Headphone</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus perferendis, deleniti illo cupiditate enim quaerat sequi eum facilis vero. Nesciunt impedit corporis blanditiis quos minima tempore voluptate esse. Ut, inventore?</p>
+                        <h1 class="price">$420</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                      </div>
+                      <div class="col-md-5">
+                        <img src="images/headphone.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                        <h1>Sony XBox</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsum officiis vitae labore eligendi quae totam commodi assumenda odit? Atque nobis assumenda recusandae libero harum facilis earum deleniti voluptatibus placeat!</p>
+                        <h1 class="price">$600</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                      </div>
+                      <div class="col-md-5">
+                        <img src="images/xbox.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <!-- carousel finished -->
+
+
+    <!-- categories starts  -->
+        <div class="container categories">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center d-flex justify-content-between cat1">
+                        <h1> Watch</h1>
+                    <img src="images/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center d-flex justify-content-between cat2">
+                        <h1>Bag</h1>
+                    <img src="images/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="d-flex align-items-center d-flex justify-content-between cat3">
+                        <h1>Shoes</h1>
+                    <img src="images/shoes.png" alt="">
+                </div>
+                    </div>
+            </div>
+        </div>
+         <!-- categories finished  -->
+         <!-- shoes starts -->
+        <div class="container shoes" id="shoes">
+            <h3>Shoes</h3>
+            <div class="card-deck">
+                <div class="card">
+                  <img src="images/shoe-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Supply 350</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, unde voluptatibus molestias ab aut, repudiandae officiis, alias vero quis tenetur quasi a sint minima ut id. Fugit tempora in non?.</p>
+                    <h5>$120</h5>
+                    <button class="buy-now-button">Buy Now >></button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/shoe-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Nike 360</h5>
+                    
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, unde voluptatibus molestias ab aut, repudiandae officiis, alias vero quis tenetur quasi a sint minima ut id. Fugit tempora in non?.</p>
+                    <h5>$320</h5>
+                    <button class="buy-now-button">Buy Now >></button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/shoe-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Nike Airmax Red</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, unde voluptatibus molestias ab aut, repudiandae officiis, alias vero quis tenetur quasi a sint minima ut id. Fugit tempora in non?</p>
+                    <h5>$350</h5>
+                    <button class="buy-now-button">Buy Now >></button>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <!-- shoes finished -->
+
+        <!-- backppack starts -->
+        
+        <div class="container bbackpack" id="backpack">
+            <div class="card-deck">
+                <div class="card">
+                  <img src="images/bag-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Tango Red Companion</h5>
+                    <h5>$125</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae laudantium perspiciatis ipsam blanditiis accusantium quod itaque rerum a magnam explicabo, accusamus corporis ea! Voluptas voluptate dignissimos quos eveniet doloribus..</p>
+                  </div>
+                  <div class="card-footer">
+                    <button class="buy-now-button">Buy Now </button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/bag-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ocean Blue Tank</h5>
+                    <h5>$320</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum harum minima, eum dicta adipisci eius molestiae impedit, excepturi veritatis delectus fuga. Cupiditate blanditiis, hic quod odio ea ad exercitationem nam.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button class="buy-now-button">Buy Now </button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/bag-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Black Jumper Sporty Backpack</h5>
+                    <h5>$169</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ex, ratione magnam quidem velit molestiae temporibus nobis nisi minus aliquam aut possimus mollitia aspernatur nam a cum praesentium porro repellat.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button class="buy-now-button">Buy Now </button>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <!-- backppack finished -->
+        <!-- subscribe starts -->
+        <div class="container orange-bg subscribe d-flex justify-content-center d-flex align-items-center" id="subscribe">
+            <div>
+                <h3>LET'S STAY IN TOUCH</h3>
+                    <h6>Get update about sales, offers and more</h6>
+                    <input class="form-control" type="text" placeholder="Enter your email">
+                <button class="buy-now-button">Submit</button>
+            </div>
+        </div>
+
+        <!-- subscribe finished -->
+        <!-- footer starts -->
+        <footer>
+        <p>©Panda Commerce | 2021.</p>
+        </footer>
+        <!-- footer ends -->
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

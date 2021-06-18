@@ -1,0 +1,77 @@
+.container{
+    margin-bottom: 100px;
+}
+
+/* carousel design*/
+.orange-bg{
+    background-color: #FBE7E7;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #ff589b 0% , #ff136f 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 30px;
+    cursor: pointer;
+    
+}
+
+/* categories design */
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient(to bottom, #ffc352 0% , #FFA500 100%);
+    
+}
+.cat2{
+    background-image: linear-gradient(to bottom, #db87d8 0%, #DA70D6 100%);
+    
+}
+.cat3{
+    background-image: linear-gradient(to bottom, #2929ff 0%, #0000FF 100%);
+    
+}
+.categories h1{
+    color: #ffffff;
+}
+.categories img{
+    width: 100px;
+}
+
+/* shoes design */
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+/* backpack design */
+.card-footer{
+    background-color: #ffffff;
+    border-top: none;
+}
+.subscribe{
+    height: 300px;
+}
+.subscribe h6{
+    color: gray;
+}
+.subscribe button{
+    text-align: center;
+    margin-top: 10px;
+}
+/* footer design */
+footer {
+    text-align: center;
+}
+footer p{
+    font-size: 12px;
+}
